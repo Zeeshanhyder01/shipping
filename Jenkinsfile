@@ -3,7 +3,7 @@ pipeline{
 
     stages {
 
-        stage(' compile & package code'){
+        stage('compile & package code'){
             steps{
 
                 sh 'mvn clean package'
@@ -11,3 +11,4 @@ pipeline{
         }
     }
 }
+
